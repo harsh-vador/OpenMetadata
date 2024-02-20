@@ -28,7 +28,7 @@ const entities = [
 const OWNER1 = 'Aaron Johnson';
 const OWNER2 = 'Cynthia Meyer';
 
-const TEAM_OWNER_1 = 'Marketplace';
+const TEAM_OWNER_1 = 'Marketplaces';
 const TEAM_OWNER_2 = 'DevOps';
 
 describe('Database hierarchy details page', { tags: 'DataAssets' }, () => {
