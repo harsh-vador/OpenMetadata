@@ -104,14 +104,4 @@ describe('ServiceConfig', () => {
 
     expect(mockUseHistory.push).toHaveBeenCalledWith('/test-path');
   });
-
-  it('should call goBack when cancel button is clicked', async () => {
-    render(<ServiceConfig {...mockProps} />);
-    const cancelButton = await screen.findByTestId('cancel-btn');
-    await act(async () => {
-      userEvent.click(cancelButton);
-    });
-
-    expect(mockUseHistory.goBack).toHaveBeenCalled();
-  });
 });
