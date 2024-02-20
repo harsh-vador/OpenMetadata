@@ -1,8 +1,8 @@
 # E2E Labels when source files are changes
-"e2e:Settings":
+Settings:
   - "openmetadata-ui/**/*setting*"
 
-"e2e:DataAssets":
+DataAssets:
   - "openmetadata-ui/**/*database*"
   - "openmetadata-ui/**/*table*"
   - "openmetadata-ui/**/*topic*"
@@ -16,12 +16,12 @@
   - "openmetadata-ui/**/*mydata*"
   - "openmetadata-ui/**/*explore*"
 
-"e2e:Governance":
+Governance:
   - "openmetadata-ui/**/*glossary*"
   - "openmetadata-ui/**/*tag*"
   - "openmetadata-ui/**/*domain*"
 
-"e2e:Observability":
+Observability:
   - "openmetadata-ui/**/*alert*"
   - "openmetadata-ui/**/*incidentmanager*"
   - "openmetadata-ui/**/*metric*"
@@ -29,7 +29,7 @@
   - "openmetadata-ui/**/*datainsight*"
   - "openmetadata-ui/**/*observability*"
 
-"e2e:Integration":
+Integration:
   - "openmetadata-ui/**/*integration*"
   - "openmetadata-ui/**/*ingestion*"
   - "openmetadata-ui/**/*service*"
