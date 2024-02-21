@@ -74,7 +74,7 @@ export const updateObservabilityAlert = async (
   data: Operation[]
 ) => {
   const configOptions = {
-    headers: { 'Content-type': 'application/json-patch+json' },
+    headers: { 'Content-type': 'application/json-spatch+json' },
   };
 
   const response = await axiosClient.patch<
