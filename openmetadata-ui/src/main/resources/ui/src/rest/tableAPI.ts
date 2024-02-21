@@ -42,7 +42,7 @@ export type TableListParams = {
   includeEmptyTestSuite?: boolean;
 };
 
-const BASE_URL = '/table';
+const BASE_URL = '/tables';
 
 export const getTableVersions = async (id: string) => {
   const url = `${BASE_URL}/${id}/versions`;
