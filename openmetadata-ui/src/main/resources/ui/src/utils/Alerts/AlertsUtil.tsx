@@ -216,7 +216,7 @@ const getOwnerOptions = async (searchText: string) => {
   return searchEntity({
     searchText,
     searchIndex: [SearchIndex.TEAM, SearchIndex.USER],
-    filters: 'isBot:true',
+    filters: 'isBot:false',
   });
 };
 
