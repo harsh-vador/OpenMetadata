@@ -37,7 +37,7 @@ export const getSearchIndexes = async (args: {
   const { paging, ...rest } = args;
 
   const response = await APIClient.get<PagingResponse<ServicePageData[]>>(
-    `/searchIndexes`,
+    `/searchIndexe`,
     {
       params: {
         ...rest,
