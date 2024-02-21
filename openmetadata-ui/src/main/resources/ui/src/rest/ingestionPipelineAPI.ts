@@ -43,7 +43,7 @@ export const getIngestionPipelineByFqn = async (
   params?: ListParams
 ) => {
   const response = await APIClient.get<IngestionPipeline>(
-    `/services/ingestionPipelin/name/${getEncodedFqn(fqn)}`,
+    `/services/ingestionPipelines/name/${getEncodedFqn(fqn)}`,
     { params }
   );
 
