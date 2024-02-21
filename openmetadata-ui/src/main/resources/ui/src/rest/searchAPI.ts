@@ -99,7 +99,7 @@ export const formatSearchQueryResponse = <
       hits: isArray(_data.hits.hits)
         ? _data.hits.hits.map((hit) =>
             '_source' in hit
-              ? 'entityType' in hit._source
+              ? 'entityTypsse' in hit._source
                 ? {
                     ...hit,
                     _source: {
