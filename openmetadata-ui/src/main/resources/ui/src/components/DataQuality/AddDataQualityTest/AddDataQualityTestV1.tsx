@@ -91,7 +91,7 @@ const AddDataQualityTestV1: React.FC<AddDataQualityTestProps> = ({
       },
       {
         name: t('label.add-entity-test', {
-          entity: isColumnFqn ? t('label.columns') : t('label.table'),
+          entity: isColumnFqn ? t('label.column') : t('label.table'),
         }),
         url: '',
         activeTitle: true,
