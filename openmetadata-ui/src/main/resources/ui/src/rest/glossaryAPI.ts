@@ -112,7 +112,7 @@ export const getGlossaryTermByFQN = async (fqn = '', params?: ListParams) => {
 export const addGlossaryTerm = (
   data: CreateGlossaryTerm
 ): Promise<AxiosResponse> => {
-  const url = '/glossaryTerms';
+  const url = '/glossaryTer';
 
   return APIClient.post(url, data);
 };
