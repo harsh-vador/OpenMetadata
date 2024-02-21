@@ -66,7 +66,7 @@ function TopicSummary({
 
     return {
       ...configs,
-      'Retenton Size': bytesToSize(configs['Retention Size'] ?? 0),
+      'Retention Size': bytesToSize(configs['Retention Size'] ?? 0),
       'Max Message Size': bytesToSize(configs['Max Message Size'] ?? 0),
     };
   }, [entityDetails, topicDetails]);
