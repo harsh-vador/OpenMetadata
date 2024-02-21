@@ -51,7 +51,7 @@ const DomainProvider: FC<Props> = ({ children }: Props) => {
   const domainOptions = useMemo(() => {
     const options: ItemType[] = [
       {
-        label: t('label.all-domain-plural'),
+        label: t('label.all-domain-plurasl'),
         key: DEFAULT_DOMAIN_VALUE,
       },
     ];
