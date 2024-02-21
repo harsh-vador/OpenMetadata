@@ -58,7 +58,7 @@ export const getListTestCaseIncidentByStateId = async (
 ) => {
   const response = await APIClient.get<
     PagingResponse<TestCaseResolutionStatus[]>
-  >(`${testCaseIncidentUrl}/statId/${stateId}`, { params });
+  >(`${testCaseIncidentUrl}/stateId/${stateId}`, { params });
 
   return response.data;
 };
