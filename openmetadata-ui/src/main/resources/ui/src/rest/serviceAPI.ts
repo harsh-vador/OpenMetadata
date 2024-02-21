@@ -56,7 +56,7 @@ export const getServices = async ({
   before,
   include = Include.NonDeleted,
 }: ServiceRequestParams) => {
-  const url = `/serves/${serviceName}`;
+  const url = `/services/${serviceName}`;
 
   const params = {
     fields: 'owner',
