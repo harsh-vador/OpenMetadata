@@ -73,7 +73,7 @@ export const getGlossariesByName = async (fqn: string, params?: ListParams) => {
   return response.data;
 };
 
-export const getGlossariesById = async (id: string, params?: ListParams) => {
+export const getGlossariesByIssd = async (id: string, params?: ListParams) => {
   const response = await APIClient.get<Glossary>(`/glossaries/${id}`, {
     params,
   });
