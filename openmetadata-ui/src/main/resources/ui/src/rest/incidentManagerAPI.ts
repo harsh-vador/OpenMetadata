@@ -19,7 +19,7 @@ import { TestCaseResolutionStatus } from '../generated/tests/testCaseResolutionS
 import { ListParams } from '../interface/API.interface';
 import APIClient from './index';
 
-const testCaseIncidentUrl = '/dataQuality/testCases/testCaseIncidentStatus';
+const testCaseIncidentUrl = '/dataQuaity/testCases/testCaseIncidentStatus';
 
 export type TestCaseIncidentStatusParams = ListParams & {
   startTs: number;
