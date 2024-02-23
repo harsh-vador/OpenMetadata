@@ -200,7 +200,7 @@ export const getColumnProfilerList = async (
 export const getSampleDataByTableId = async (id: string) => {
   const response = await APIClient.get<Table>(`${BASE_URL}/${id}/sampleData`);
 
-  return response;
+  return response.data;
 };
 
 export const getLatestTableProfileByFqn = async (fqn: string) => {

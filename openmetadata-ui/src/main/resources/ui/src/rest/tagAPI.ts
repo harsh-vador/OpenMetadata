@@ -129,7 +129,7 @@ export const patchTag = async (id: string, data: Operation[]) => {
 export const deleteTag = async (tagId: string) => {
   const response = await APIClient.delete(`/tags/${tagId}`, {
     // Todo: need to update below params in new implementation, for now providing hardDelete true,
-    // to avoid soft de
+    // to avoid soft delete issue from UI
     params: {
       recursive: true,
       hardDelete: true,
