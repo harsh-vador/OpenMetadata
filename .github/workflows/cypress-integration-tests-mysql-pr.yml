@@ -145,7 +145,7 @@ jobs:
           wait-on: "http://localhost:8585"
           command: |
             npx cypress run --config-file=cypress.config.ts \
-             --env grepTags=${{ steps.get_cypress_filter.outputs.e2eFilters }},grepFilterSpecs=true \
+             --env grepTags="${{ steps.get_cypress_filter.outputs.e2eFilters }}",grepFilterSpecs=true \
              --group cypress-ci-mysql-pr-oss-${{ github.run_id }}-${{github.run_attempt}} \
              --parallel --record --browser chrome
         env:
