@@ -119,7 +119,7 @@ export const updateTag = async (data: Classification) => {
 
 export const patchTag = async (id: string, data: Operation[]) => {
   const response = await APIClient.patch<Operation[], AxiosResponse<Tag>>(
-    `/tags/${id}`,
+    `/tag/${id}`,
     data
   );
 
