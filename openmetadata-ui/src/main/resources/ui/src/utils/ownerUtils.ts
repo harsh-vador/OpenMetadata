@@ -39,3 +39,5 @@ export const getOwnerHref = (owner: OwnerEntityReference): string =>
     name: owner.name,
     type: owner.type,
   } as EntityReference);
+
+// Touches a bundle input so the Bundle Budget steps run. Verification only.
